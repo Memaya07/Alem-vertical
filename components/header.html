@@ -1,0 +1,137 @@
+<header class="site-header" id="header">
+  <div class="header-container">
+    <div class="header-content">
+      <!-- Logo -->
+      <div class="logo-container">
+        <a href="index.html" class="logo-link">
+          <div class="logo-image">
+            <img id="main-logo" src="assets/Logo White.svg" alt="Alem Logo" />
+          </div>
+        </a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <a href="about-us.html" class="nav-link">About Us</a>
+
+        <!-- Companies Dropdown -->
+        <div class="dropdown" id="companies-dropdown">
+          <button class="nav-link dropdown-button">
+            Our Companies
+            <svg
+              class="dropdown-icon"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              ></path>
+            </svg>
+          </button>
+
+          <div class="dropdown-menu" id="companies-menu">
+            <a href="alem-insurance.html" class="dropdown-item"
+              >Alem Insurance</a
+            >
+            <a href="alem-accounting.html" class="dropdown-item"
+              >Alem Accounting</a
+            >
+            <a href="alem-investments.html" class="dropdown-item"
+              >Alem Investments</a
+            >
+            <a href="alem-real-estate.html" class="dropdown-item"
+              >Alem Real Estate</a
+            >
+          </div>
+        </div>
+
+        <a href="articles.html" class="nav-link">Articles</a>
+        <a href="contact.html" class="btn-contact btn">Contact</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button
+        class="mobile-menu-toggle"
+        id="mobile-menu-btn"
+        aria-label="Toggle menu"
+      >
+        <svg
+          class="menu-icon"
+          id="menu-icon"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          ></path>
+        </svg>
+        <svg
+          class="menu-icon hidden"
+          id="close-icon"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          ></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu hidden" id="mobile-menu">
+    <div class="mobile-menu-content">
+      <a href="/about" class="mobile-nav-link">About Us</a>
+
+      <div>
+        <button class="mobile-dropdown-button" id="mobile-companies-btn">
+          <svg
+            class="dropdown-icon"
+            id="mobile-chevron-icon"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+          Our Companies
+        </button>
+        <div class="mobile-dropdown-content hidden" id="mobile-companies-menu">
+          <a href="#alem-insurance" class="mobile-dropdown-item"
+            >Alem Insurance</a
+          >
+          <a href="#alem-accounting" class="mobile-dropdown-item"
+            >Alem Accounting</a
+          >
+          <a href="#alem-investments" class="mobile-dropdown-item"
+            >Alem Investments</a
+          >
+          <a href="#alem-real-estate" class="mobile-dropdown-item"
+            >Alem Real Estate</a
+          >
+        </div>
+      </div>
+
+      <a href="/articles" class="mobile-nav-link">Articles</a>
+      <a href="#contact" class="mobile-btn-contact">Contact</a>
+    </div>
+  </div>
+</header>
