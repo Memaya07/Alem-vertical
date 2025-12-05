@@ -46,7 +46,7 @@
   position: relative;
   z-index: 10;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 3rem auto 0;
   padding: 8rem 1.5rem 5rem;
   width: 100%;
 }
